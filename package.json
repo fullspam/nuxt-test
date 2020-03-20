@@ -1,7 +1,7 @@
 {
   "name": "nuxt-test",
   "version": "1.0.0",
-  "description": "My sensational Nuxt.js project",
+  "description": "My praiseworthy Nuxt.js project",
   "author": "Jorge",
   "private": true,
   "scripts": {
@@ -14,6 +14,8 @@
   "dependencies": {
     "nuxt": "^2.0.0",
     "@nuxt/typescript-runtime": "^0.4.0",
+    "bootstrap-vue": "^2.0.0",
+    "bootstrap": "^4.1.3",
     "@nuxtjs/axios": "^5.3.6"
   },
   "devDependencies": {
