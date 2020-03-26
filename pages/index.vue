@@ -1,7 +1,7 @@
 <template>
   <div>
-    <!-- <Header /> -->
-    <!-- <Nav /> -->
+    <Header />
+    <Nav />
     <OurMethodology />
   </div>
 </template>
