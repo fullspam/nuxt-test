@@ -1,16 +1,18 @@
 <template>
   <b-container>
-    <b-navbar type="" variant=""  class="nav-container">
-      <b-navbar-brand href="#">
-      <img src="https://placekitten.com/g/30/30" alt="Kitten">
-      </b-navbar-brand>
-      <b-navbar-nav>
-        <b-nav-item class="pr-30" href="#">Our methodology</b-nav-item>
-        <b-nav-item class="pl-30 pr-30" href="#">Services</b-nav-item>
-        <b-nav-item class="pl-30 pr-30" href="#">Offices and teams</b-nav-item>
-        <b-nav-item class="pl-30" href="#">Certifications and specializations</b-nav-item>
-      </b-navbar-nav>
-    </b-navbar>
+    <div class="d-none d-lg-block">
+      <b-navbar class="nav-container">
+        <b-navbar-brand href="#">
+          <img src="https://placekitten.com/g/30/30" alt="Kitten">
+        </b-navbar-brand>
+        <b-navbar-nav class="justify-content-center align-items-end">
+          <b-nav-item class="pr-30" href="#our-methodology">Our methodology</b-nav-item>
+          <b-nav-item class="pl-30 pr-30" href="#">Services</b-nav-item>
+          <b-nav-item class="pl-30 pr-30" href="#">Offices and teams</b-nav-item>
+          <b-nav-item class="pl-30" href="#">Certifications and specializations</b-nav-item>
+        </b-navbar-nav>
+      </b-navbar>
+    </div>
   </b-container>
 </template>
 
