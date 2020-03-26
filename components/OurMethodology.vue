@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid class="our-container">
+  <b-container fluid class="our-container"><a name="our-methodology"></a>
     <b-container class="our-methodology">
       <b-row>
         <b-col cols="12" lg="6" class="our-image">
