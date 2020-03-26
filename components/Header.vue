@@ -1,10 +1,10 @@
 <template>
   <b-container fluid class="">
     <b-row>
-      <b-col class="info">
+      <b-col cols="12" lg="6" class="info">
         text
       </b-col>
-      <b-col class="image">
+      <b-col cols="12" lg="6" class="image">
         <b-img class="img" src="~assets/image/img-1.jpg" fluid alt="Responsive image"></b-img>
       </b-col>
     </b-row>
@@ -33,13 +33,19 @@ export default Vue.extend({
 }
 .info {
   background-color: #4181F5;
-  min-height: 100vh;
+  height: 100vh;
+  @media (max-width: 992px) { 
+    height: 70vh;
+  }
 }
 .image {
   padding: 0;
   .img {
     height: 100vh;
     width: 100%;
+    @media (max-width: 992px) { 
+      height: 30vh;
+    }
   }
 }
 </style>
