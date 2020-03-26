@@ -3,7 +3,13 @@
     <b-container class="our-methodology">
       <b-row>
         <b-col cols="12" lg="6" class="our-image">
-          <b-img class="image" src="~assets/image/our-methodology.png" fluid alt="Responsive image"></b-img>
+          <b-img 
+            data-aos="fade-up"
+            data-aos-duration="3000" 
+            class="image" 
+            src="~assets/image/our-methodology.png" 
+            fluid alt="Responsive image">
+            </b-img>
         </b-col>
         <b-col cols="12" lg="6" class="our-info">
           <div>
