@@ -1,6 +1,6 @@
 <template>
   <b-container>
-    <b-navbar type="" variant=""  class="test">
+    <b-navbar type="" variant=""  class="nav-container">
       <b-navbar-brand href="#">
       <img src="https://placekitten.com/g/30/30" alt="Kitten">
       </b-navbar-brand>
@@ -100,15 +100,10 @@ export default Vue.extend({
 .pr-30 {
   padding-right: 30px;
 }
-.test {
+.nav-container {
   margin-top: 50px;
   margin-bottom: 50px;
   justify-content: center;
   align-items: center;
-
 }
-
-.gf-tabs-items {
-    
-  }
 </style>

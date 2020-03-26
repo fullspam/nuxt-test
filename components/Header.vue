@@ -1,8 +1,12 @@
 <template>
   <b-container fluid class="">
     <b-row>
-      <b-col class="info">1 of 3</b-col>
-      <b-col><Logo /></b-col>
+      <b-col class="info">
+        text
+      </b-col>
+      <b-col class="image">
+        <b-img class="img" src="~assets/image/img-1.jpg" fluid alt="Responsive image"></b-img>
+      </b-col>
     </b-row>
   </b-container>
 </template>
@@ -19,7 +23,7 @@ export default Vue.extend({
 })
 </script>
 
-<style>
+<style lang="scss">
 .container{
   /* margin: 0 auto;
   min-height: 100vh;
@@ -30,6 +34,13 @@ export default Vue.extend({
 .info {
   background-color: #4181F5;
   min-height: 100vh;
+}
+.image {
+  padding: 0;
+  .img {
+    height: 100vh;
+    width: 100%;
+  }
 }
 </style>
 
