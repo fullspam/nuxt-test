@@ -1,0 +1,18 @@
+
+/* 
+ * BLUE COLORS AS VARIABLES
+ */
+$nd-blue: #0EA7C9; // default
+
+$nd-blue-1: #0EA7C9; // default
+$nd-blue-2: #4181F5;
+
+/* 
+ * BLUE COLORS AS MAP
+ */
+$nd-blues: (
+  0: $nd-blue, // default
+
+  1: $nd-blue-1, // default
+  2: $nd-blue-2,
+);
