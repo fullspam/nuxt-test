@@ -1,107 +1,58 @@
 <template>
   <div>
     <!-- <Header />
-    <Nav /> -->
+    <Nav />
+    <OurMethodology /> -->
     <!-- <Service /> -->
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
-    <OurMethodology />
     <OfficeTeams />
   </div>
 </template>
