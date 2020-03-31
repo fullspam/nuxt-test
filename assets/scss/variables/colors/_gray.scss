@@ -1,0 +1,22 @@
+
+/* 
+ * GRAY COLORS AS VARIABLES
+ */
+
+$nd-gray: #7E7E7E; // default
+
+$nd-gray-1: #7E7E7E;
+$nd-gray-2: #454545;
+
+/* 
+* GRAY COLORS AS MAP
+*/
+$nd-grays: (
+  0: $nd-gray,
+
+  1: $nd-gray-1,
+  2: $nd-gray-2
+);
+
+$nd-white: #FFFFFF;
+

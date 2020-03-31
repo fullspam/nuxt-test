@@ -1,2 +1,9 @@
-@import './fonts.scss';
-
+/**
+  THIS AND ALL `_index.scss` FILES 
+  ARE FOR `import` ONLY PROPUSES
+ */
+ 
+@import './variables';      // ALL APP REUSABLE VARIABLES, COLORS, SIZES, FONTS
+@import './utils/';         // MIXINS, FUNCTIONS, GENERAL HELPERS ...
+@import './helpers/';       // HELPERS, COLORS, ALIGNS, PADDING, MARGIN ...
+@import './base/';          // BASE STILES, BASICS OVERWRITES ...

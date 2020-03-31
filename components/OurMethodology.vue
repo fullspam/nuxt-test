@@ -4,7 +4,7 @@
       <b-row>
         <b-col cols="12" lg="6" class="our-image">
           <b-img 
-            data-aos="fade-up"
+            data-aos=""
             data-aos-duration="3000" 
             class="image" 
             src="~assets/image/our-methodology.png" 
@@ -152,7 +152,7 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 .our-container {
-  padding: 0px;
+  padding: 50px 0 0 0;
   text-align: center;
   .our-methodology {
     padding-bottom: 70px;
