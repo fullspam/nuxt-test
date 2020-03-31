@@ -1,0 +1,42 @@
+
+/*
+ * SEARCH RECURSIVELY IN A MAP
+ */
+@function mapDeepGet($map, $keys...) {
+  @each $key in $keys {
+    $map: map-get($map, $key);
+  }
+  @return $map;
+}
+
+/*
+ * RETURN THE COLOR OF THE PALETTE BY VARIATION 
+ */
+@function nd-color($color, $variation: 0) {
+  // $selectedColor: mapDeepGet($nd-colors, $color, $variation);
+
+  $colorPalette : map-get($nd-colors, $color);
+  @if ( $colorPalette == null ) {
+    @error "Color `#{$color}` not exist in colors palette";
+  }
+  
+  $colorVariation: map-get($colorPalette, $variation);
+  @if ( $colorVariation == null ) {
+    // @error "Property #{$variation} invalid";
+    @error "Color variation `#{$variation}` not exist in #{$color} color palette";
+  }
+
+  @return $colorVariation;
+}
+
+/*
+ * RETURN THE FONT SIZE
+ */
+ @function nd-font($size) {
+  $fontSize : map-get($nd-font-sizes, $size);
+  @if ( $fontSize == null ) {
+    @error "Font size `#{$size}` not exist in font sizes";
+  }
+  
+  @return $fontSize;
+}

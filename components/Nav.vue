@@ -104,7 +104,6 @@ export default Vue.extend({
 }
 .nav-container {
   margin-top: 50px;
-  margin-bottom: 50px;
   justify-content: center;
   align-items: center;
 }

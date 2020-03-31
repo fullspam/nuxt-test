@@ -1,58 +1,108 @@
 <template>
   <div>
-    <Header />
-    <Nav />
+    <!-- <Header />
+    <Nav /> -->
+    <!-- <Service /> -->
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
+    <OfficeTeams />
     <OurMethodology />
-    <OurMethodology />
+    <OfficeTeams />
   </div>
 </template>
 
@@ -61,13 +111,17 @@ import Vue from 'vue'
 import Header from '../components/Header.vue'
 import Nav from '../components/Nav.vue'
 import OurMethodology from '../components/OurMethodology.vue'
+import Service from '../components/Service.vue'
+import OfficeTeams from '../components/OfficeTeams.vue'
 
 export default Vue.extend({
   
   components: {
     Header,
     Nav,
-    OurMethodology
+    OurMethodology,
+    Service,
+    OfficeTeams
   }
 })
 </script>

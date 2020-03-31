@@ -1,0 +1,11 @@
+/** CREATE COLOR AND BACKGROUND COLOR  */
+@mixin gen-colors($name, $array-color) {
+  @each $key, $color in $array-color {
+    .color-#{$name}-#{$key} {
+      color: $color !important;
+    }
+    .bg-#{$name}-#{$key} {
+      background-color: $color !important;
+    }
+  }
+}

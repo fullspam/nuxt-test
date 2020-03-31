@@ -1,0 +1,11 @@
+
+@import './blue';
+@import './gray';
+
+/*
+ * CENTRALIZED COLOR PALETTE
+ */
+$nd-colors: (
+  "blue"   : $nd-blues,
+  "gray"   : $nd-grays,
+);

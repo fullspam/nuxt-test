@@ -1,0 +1,7 @@
+
+/** CREATE CLASS COLORS AND BACKGROUNDS
+ *  FOR EVERY COLOR IN PALETTE
+ */
+@each $key, $colors in $nd-colors {
+  @include gen-colors($key, $colors);
+}
